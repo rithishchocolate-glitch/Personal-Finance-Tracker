@@ -85,3 +85,35 @@ Personal-Finance-Tracker/
    python main_finance.py
    ```
 
+
+   ## ▶️ Usage
+
+- **Add a transaction**
+  ```bash
+  python add_transaction_pg.py
+  ```
+
+- **Generate a summary**
+  ```bash
+  python summary_pg.py
+  ```
+
+- **Advanced summary**
+  ```bash
+  python advanced_summary.py
+  ```
+
+- **Bulk load from CSV**
+  ```bash
+  python load_csv_pg.py
+  ```
+
+- **Database setup**
+  ```bash
+  python db_setup.py
+  ```
+
+- **Power BI Dashboard**
+  Open `dashboards/Finance_Tracker.pbix` in Power BI Desktop to view interactive reports.
+
+
