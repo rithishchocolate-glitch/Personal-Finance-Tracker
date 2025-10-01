@@ -27,6 +27,9 @@ A Python + PostgreSQL + Power BI project to track **income, expenses, and balanc
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
+```
 Personal-Finance-Tracker/
 │
 ├── add_transaction_pg.py         # Script to add income/expense records
@@ -41,4 +44,8 @@ Personal-Finance-Tracker/
 ├── summary_pg.py                  # Generate summary reports
 │
 ├── finance.db                     # Local SQLite DB (optional, dev use)
-├── errors.log
+├── errors.log                     # Log file
+├── requirements.txt               # Python dependencies
+├── README.md                      # Project documentation
+└── .gitignore                     # Ignore unnecessary files (venv, logs, etc.)
+```
