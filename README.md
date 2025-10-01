@@ -27,7 +27,6 @@ A Python + PostgreSQL + Power BI project to track **income, expenses, and balanc
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
 
 ```
 Personal-Finance-Tracker/
@@ -49,3 +48,40 @@ Personal-Finance-Tracker/
 ├── README.md                      # Project documentation
 └── .gitignore                     # Ignore unnecessary files (venv, logs, etc.)
 ```
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Personal-Finance-Tracker.git
+   cd Personal-Finance-Tracker
+   ```
+
+2. **Create a virtual environment (recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Mac/Linux
+   venv\Scripts\activate      # On Windows
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set up the database**
+   - Run `create_table.py` to create the necessary tables in PostgreSQL.
+   - (Optional) Load sample data using:
+     ```bash
+     python insert_sample_data.py
+     ```
+     or
+     ```bash
+     python load_csv_pg.py
+     ```
+
+5. **Run the app**
+   ```bash
+   python main_finance.py
+   ```
+
